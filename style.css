@@ -1,0 +1,32 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input, label, button, p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.converter{
+    border: 2px solid black;
+    border-radius: 1rem;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 5px 5px 10px;
+}
+.convertChoice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+}
+button:hover{
+    cursor: pointer;
+}
+
+
